@@ -29,7 +29,6 @@
       <a class="brand-logo"><img src="assets/img/logo4.jpg" class="logo responsive-img"></a>  
       <ul class="right hide-on-med-and-down">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
@@ -38,7 +37,6 @@
   </nav>
   <ul class="sidenav" id="mobile-demo">
     <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
     <li><a href="skills.html">Skills</a></li>
     <li><a href="contact.html">contact</a></li>
   </ul>
@@ -46,101 +44,45 @@
 
   <br>
   <h2 class="center-align green-text">Get In Touch With Us</h2>
-
-
-<div class="container">
-    <div class="row">
-        <div class="card">
-          <div>
-            <div class="col l12">
-              <img src="assets/img/african.avif">
-              <span class="card title"></span>
-            </div>
-              <div class="card-content">
-                 <div class="container">
-    <div class="row">
-        <div class="card">
-            <div class="col l6">
-                    <div class="input-field">
-                        <i class="material-icons prefix">person</i>
-                        <input type="text"id=FirstName>
-                        <label for="FirstName">First Name</label>
-                        </div>
-
-
-            <div class="col l6">
-                    <div class="input-field">
-                        <i class="material-icons prefix">account_circle</i>
-                        <input type="text"id=LastName>
-                        <label for="LastName">LastName</label>
-                        </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="card">
-            <div class="col l6">
-                    <div class="input-field">
-                        <i class="material-icons prefix">phone</i>
-                        <input type="text"id=Phonenumber>
-                        <label for="PhoneNumber">PhoneNumber</label>
-                        </div>
-
-
-
-                    <div class="input-field">
-                        <i class="material-icons prefix">password</i>
-                        <input type="text"id=password>
-                        <label for="PhoneNumber">password</label>
-                        </div>
+  <div class="container">
+    <div class="card" style="padding: 20px;">
+        <div class="row">      
+<div class="col l6 s12">
+    <img src="assets/img/contact.jpg" class="responsive-img">
 </div>
-</div>
-</div>
-</div>
-
-
-
-
-
-<div class="container">
-  <div class="row">
-      <div class="card">
-          <div class="col l6">
-                    <div class="input-field">
-                        <i class="material-icons prefix">email</i>
-                        <input type="text"id=Email>
-                        <label for="Email">Email</label>
-                        </div>
-
-
-</div>
-</div>
-</div>
+<div class="col l6 s12">
 <div class="row">
-  <div class="card">
-      <div class="col l6">
-        <a href="" class="btn-large green">SUBMIT</a>
-</div>
-</div>
-</div>
-
-</div>
-              </div>
-          </div>
-        </div>
+    <div class="input-field col s12">
+      <i class="material-icons prefix">account_circle</i>
+      <input type="text" id="firstName">
+      <label for="firstName">First Name</label>
     </div>
-</div>
-
-
-</body>
-
-
+    <div class="input-field col s12">
+      <i class="material-icons prefix">person</i>
+      <input id="lastName" type="text">
+      <label for="lastName">Last Name</label>
+    </div>
+  </div>
+  <div class="input-field col s12">
+    <i class="material-icons prefix">phone</i>
+    <input id="phoneNumber" type="number">
+    <label for="phoneNumber">Phone Number</label>
+  </div>
+  <div class="input-field col s12">
+    <i class="material-icons prefix">mail</i>
+    <input id="eMail" type="text">
+    <label for="eMail" class="">Email</label>
+  </div>
+  <div class="input-field col s12">
+    <i class="material-icons prefix">edit</i>
+    <input id="messageUs" type="text">
+    <label for="messageUs">Message us</label>
+  </div>
+  <a href="" class="btn-large green" style="border-radius: 15px;">SEND</a>
+    </div>
+    </div>
+    </div>
+    </div>
 <footer class="page-footer green">
   <div class="container">
      <div class="row">
@@ -171,11 +113,13 @@
 
 
 
-<script src="assets/js/materialize.min.js"></script>
 <script src="assets/js/jquery.js"></script>
+<script src="assets/js/materialize.min.js"></script>
 <script>
   $(document).ready(function(){
-    $('.sidenav').sidenav();
+  $('.sidenav').sidenav();
+  $('.parallax').parallax();
   });
-</script>
+ </script>
+ </body>
 </html>  
