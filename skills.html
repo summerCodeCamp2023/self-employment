@@ -27,7 +27,6 @@
       <a class="brand-logo"><img src="assets/img/logo4.jpg" class="logo responsive-img"></a>  
       <ul class="right hide-on-med-and-down">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
@@ -36,7 +35,6 @@
   </nav>
   <ul class="sidenav" id="mobile-demo">
     <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
     <li><a href="skills.html">Skills</a></li>
     <li><a href="contact.html">contact</a></li>
   </ul>
@@ -45,53 +43,43 @@
 
   <br><br>
 <main>
-  <section>
-  <div class="container">
-    <div>
-      <h4>SKILLS ACQUISITION THAT CAN BE ESTABLISHED TO PROMOTE SELF EMPLOYMENT</h4>
-      <h6>the government plays a lot of roles in this following fields</h6>
-      <div class="card-content">
-        <ol>
-        <li>Tailoring:Tailoring is a skills that can be encouraged by donation of sewing instrument for the tailors and the introduction of advertisement </li>
-        <li>Hair Dresser:Hair dressing is a lucrative work,it can also be encoureged by the donation of intrument to those that are still learners so that after their training they can set up a small business of hair dressing on their own </li>
-        <li>Craft making:craft making is also a skill that can yield into a big business through the help of the government and the local government of a certain community</li> 
-        </ol>
-        There're also a lot of other job opportunities e.g(shoe making,barbers,make-up artists and so on)
-      </div>
+  <section id="Ovation">
+    <div class="container">
+      <h5 style="padding-bottom: 30px;">SKILLS</h5>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">person</i>Tailoring</div>
+          <div class="collapsible-body"><span>You can improve your tailoring skills by watching youtube videos, and also enrolling in free skill acquision programs organized by local government or NGO'S for example: The COCA COLA FOUNDATION.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">person</i>Photography skills</div>
+          <div class="collapsible-body"><span>It allows you to enhance a company's website or social media content. They are many website online that teach Photography skills wether you are just getting started and need a beginners course or you are more advanced and need more in-depth training.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">person</i>Baking</div>
+          <div class="collapsible-body"><span>You can learn how to bake by watching youtube videos and also practice phyically by applying for free skill acquision programs hosted by government agencies or NGOS such as the COCA COLA FOUNDATION</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">person</i>Coding</div>
+          <div class="collapsible-body"><span>Coding is a skill that many employers value regardless of the specific position you hold. Basic coding skills makes it easier for you to help a team launch an app, optimizing a website for the search engines and even edit and create a content. </span></div>
+          
+        </li>
+      </ul><div class=""></div>
     </div>
-  </div>
-</section>
-<br><br>
+  </section>
 
-<div class="center-align">
+<div class="container">
       <h4>There are a lot of free vocational skills training acquisition in nigeria such as:</h4>
       <p>1.<b>VOSTAQ Nigeria Project</b>VOSTAQ skills training is located at Abeokuta 107.It is a free platform which it's aim was to inspire,impact and empower people to become a BOSS.It's a non-governmental initiative.The organization was officially created December 2008 And effectively commenced on Decenber 18th 2009 at FCT Abuja buwari to be precise, and it's still currently penetrating other states in nigeria.</p>
       <p>2.<b>The new mind initiative</b>The Federal Ministry of Youth and Sport Development has endorsed The new mind initiative,an active youth organization contributing to the development of the teeming Nigerian Youth through programmes that promote skills acquisition and incubation of youth entrepreneurial projects.The new mind initiative are the initiators of WE ARE ONE YOUTH EMPOWERMENT PROGRAM now themed."Street 2 Boss Challenge"</p>
-      <p>Visit them at @thenewminds.org</p>
+      <p>2. <b>The COCA COLA FOUNDATION</b> The foundation is committed toward making a difference in communities around the world by investing in transformative ideas and institutions that address some of the most pressing global Challenge</p>
+  
 </div>
 <br>
-
-<section>
-  <div class="container">
-  <h4>Challenges facing self employed</h4>
-   <ol>
-    <li><b>Time consuming:</b>You may have difficulties in seperating your personal life from your professionalone and dont have any paid leaves</li>
-    <li><b>Stress:</b>Your stress level may be high because you might have to work around the clock</li>
-    <li><b>Financial Risk:</b>You may have to pay more taxes,inconsistence clients which result in inconsistent income which might even lead to loan</li>
-    <li><b>Less security:</b>it might be your responsibility to make sure you always have work to do</li>
-   </ol>
+      <div class="container">
+      <h5>IN CONCLUSION:</h5>
+      <p>Starting up a business doesn't only require success but it also comes with failure.we all happen to fail at times but,that does not mean you're a failure,dont let failure defines who you are,you have to be determined to succeed but peradventure you fail due to one reason or the other you dont kill yourself and dont remain on the ground and in getting up make sure you pick something up</p>
   </div>
-  </section>
-  <br>
-  <section>
-    <div class="container">
-<h5>IN CONCLUSION:</h5>
-<p>Starting up a business doesn't only require success but it also comes with failure.we all happen to fail at times but,that does not mean you're a failure,dont let failure defines who you are,you have to be determined to succeed but peradventure you fail due to one reason or the other you dont kill yourself and dont remain on the ground and in getting up make sure you pick something up</p>
-</div>
-</section>
-
-  <a class="btn pulse waves-effect waves blue" href="contact.html">LEARN MORE</a>
-</div>
 </div>
 </main>
 
@@ -134,11 +122,13 @@
 
 
 </body>
-<script src="assets/js/materialize.min.js"></script>
 <script src="assets/js/jquery.js"></script>
+<script src="assets/js/materialize.min.js"></script>
 <script>
   $(document).ready(function(){
-    $('.sidenav').sidenav();
+  $('.sidenav').sidenav();
+  $('.parallax').parallax();
+  $('.collapsible').collapsible();
   });
-</script>
+ </script>
 </html>  
